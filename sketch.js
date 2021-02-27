@@ -78,7 +78,7 @@ function draw() {
    
        
     blackHoleG.setLifetimeEach(-1);
-     blackHoleG.setVelocityYEach(0);
+     blackHoleG.setVelocityXEach(0);
 
     // atmosphere.lifetime=-1;
     atmosphere.velocityY = 0;
