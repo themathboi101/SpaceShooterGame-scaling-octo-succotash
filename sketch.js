@@ -118,7 +118,7 @@ function spawnAsteroids() {
     asteroid.depth = runner.depth;
     asteroid.depth = runner.depth + 0.5;
     asteroid.lifetime = 400 / asteroid.velocityY;
-    asteroid.debug = true;
+    //asteroid.debug = true;
     asteroid.setCollider("circle",0,0,100);
     
     
@@ -148,7 +148,7 @@ function spawnBlackHoles() {
 
     blackHole.lifetime = 400 / blackHole.velocityX;
 
-    blackHole.debug = true;
+    //blackHole.debug = true;
     blackHole.setCollider("circle",0,0,80)
     
     
